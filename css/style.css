@@ -1,0 +1,776 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+}
+
+.top1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.top1 .top-item {
+    padding: 20px;
+}
+
+.top1 .top-item-logo a {
+    color: rgb(171, 16, 16);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top1 .top-item-logo a span {
+    font-size: 10px;
+    color: rgb(90, 86, 86);
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.top .top-item a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.top-end {
+    text-align: center;
+    padding: 100px 0px;
+    align-items: center;
+}
+
+.top-end h1 {
+    padding: 50px;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.top-end h3 {
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(171, 16, 16);
+    text-transform: capitalize;
+    font-style: italic;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes example2 {
+    0% {
+        right: -200px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+@keyframes example3 {
+    0% {
+        top: 200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.service {
+    background-color: black;
+}
+
+.service1 {
+    display: flex;
+    padding: 0 50px;
+}
+
+h2 {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.ser-col-1 {
+    margin-top: 100px;
+    padding: 20PX;
+    display: block;
+    border-left: 1px solid grey;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.ser-col-1 .row {
+    padding: 20px;
+}
+
+.partner {
+    background-color: black;
+}
+
+.partner1 {
+    margin: 0 100px;
+    display: flex;
+}
+
+.about {
+    background-color: black;
+    padding: 10px;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.about1 {
+    display: flex;
+}
+
+.about-left {
+    padding: 30px;
+    width: 50%;
+    position: relative;
+    z-index: 0;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.about-left-11 {
+    position: absolute;
+    bottom: -50;
+    right: 60;
+    z-index: -1;
+}
+
+.about-right {
+    padding: 30px;
+    width: 40%;
+    border-left: 1px solid grey;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 4s;
+}
+
+.about-right img {
+    height: 400px;
+}
+
+.about-right h3 {
+    padding: 30px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.about-right p {
+    padding: 30px 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: grey;
+}
+
+.about-right p span {
+    color: rgb(171, 16, 16);
+}
+
+.about-right button {
+    border: 1px solid white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    background: transparent;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.about-right button:hover {
+    background-color: rgb(171, 16, 16);
+}
+
+.myservice {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.myservice h1 {
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.myservice1 {
+    padding: 0 20px;
+}
+
+.ser-row {
+    display: flex;
+    padding: 30px;
+}
+
+.box-1 {
+    width: 30%;
+    padding: 40px;
+    border-left: 1px solid grey;
+}
+
+.box-1 h2 {
+    padding: 10px;
+}
+
+.box-1 p {
+    padding: 10px;
+}
+
+.client {
+    padding: 30px;
+}
+
+.client h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.client-box {
+    margin-top: 100px;
+    background-color: rgb(33, 32, 32);
+    width: 100%;
+    height: 40vh;
+    border-bottom: 5px solid rgb(171, 16, 16);
+}
+
+.client-box h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(171, 16, 16);
+}
+
+.client-box p {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.ser-row1 {
+    display: flex;
+    padding: 30px;
+}
+
+.journal {
+    padding: 20px;
+    position: relative;
+    animation-name: example3;
+    animation-duration: 4s;
+}
+
+.journal h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.journal1 {
+    padding: 30px;
+}
+
+.j-left {
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.j-right {
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 4s;
+}
+
+.skill {
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+}
+
+.skill1 {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.skill1 h1 {
+    margin: 50px;
+    text-align: center;
+    color: rgb(171, 16, 16);
+    font-size: 60px;
+}
+
+.skill1 h1 span {
+    color: white;
+    font-size: 20px;
+}
+
+.skill>h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.j-img {
+    margin-top: 5px;
+    padding: 30px;
+    border: 1px solid grey;
+}
+
+.footer {
+    background-color: rgb(33, 32, 32);
+    text-align: center;
+}
+
+.footer1 {
+    padding: 30px;
+}
+
+.footer h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.f-item {
+    color: rgb(171, 16, 16);
+    padding: 10px;
+}
+
+.f-item .bi:hover {
+    color: white;
+}
+
+.f-item bi {
+    padding: 20px;
+}
+
+.contact {
+    padding: 50px;
+    position: relative;
+    animation-name: example3;
+    animation-duration: 4s;
+}
+
+.contact1 {
+    text-align: center;
+    box-shadow: 0 5px 10px 0px white;
+    border: 1px solid rgb(171, 16, 16);
+    padding: 20px;
+}
+
+.contact1 h2 {
+    color: rgb(171, 16, 16);
+}
+
+form input {
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form textarea {
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form button {
+    width: 500px;
+    background-color: rgb(171, 16, 16);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media only screen and (min-width:200px) and (max-width:600px) {
+    .top {
+        background-position: center;
+        background: url(/img/bg.webp);
+        background-size: cover;
+        width: 500px;
+        height: 70vh;
+    }
+    .top1 {
+        display: block;
+        width: 500px;
+        font-size: 15px;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    .top1 .top-item {
+        padding: 20px;
+    }
+    .top1 .top-item-logo a {
+        color: rgb(171, 16, 16);
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .top1 .top-item-logo a span {
+        font-size: 5px;
+        color: rgb(90, 86, 86);
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    .top .top-item a {
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 10px;
+    }
+    .top-end {
+        padding: 10px 0px;
+        width: 400px;
+    }
+    .top-end h1 {
+        padding: 20px 0px;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+    .top-end h3 {
+        padding: 10px 0;
+        font-size: 10px;
+        color: rgb(171, 16, 16);
+        text-transform: capitalize;
+        font-style: italic;
+        position: relative;
+        animation-name: example2;
+        animation-duration: 4s;
+    }
+    @keyframes example {
+        0% {
+            left: -200px;
+        }
+        100% {
+            left: 0px;
+        }
+    }
+    @keyframes example2 {
+        0% {
+            right: -200px;
+        }
+        100% {
+            right: 0px;
+        }
+    }
+    @keyframes example3 {
+        0% {
+            top: 200px;
+        }
+        100% {
+            top: 0px;
+        }
+    }
+    .service {
+        background-color: black;
+        width: 500px;
+    }
+    .service1 {
+        display: block;
+        padding: 0 5px;
+    }
+    h2 {
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .ser-col-1 {
+        margin-top: 180px;
+        width: 500px;
+        padding: 50PX 0;
+        border: 1px solid grey;
+        display: block;
+        border-left: 1px solid grey;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    .ser-col-1 .row {
+        padding: 10px;
+        width: 400px;
+    }
+    .partner {
+        background-color: black;
+    }
+    .partner1 {
+        font-size: 20px;
+        display: block;
+        padding: 10px;
+    }
+    .about {
+        background-color: black;
+        padding: 20px;
+    }
+    .about h2 {
+        text-align: center;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .about1 {
+        display: block;
+    }
+    .about-left {
+        padding: 20px;
+        width: 500px;
+        position: relative;
+        z-index: 0;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    .about-left-11 {
+        position: absolute;
+        bottom: -50;
+        right: 60;
+        z-index: -1;
+    }
+    .about-right {
+        padding: 40px;
+        width: 500px;
+        border-left: 1px solid grey;
+        position: relative;
+        animation-name: example2;
+        animation-duration: 4s;
+    }
+    .about-right img {
+        height: 200px;
+    }
+    .about-right h3 {
+        padding: 10px 0;
+        font-size: 40px;
+        text-transform: capitalize;
+    }
+    .about-right p {
+        padding: 40px 0;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: grey;
+    }
+    .about-right p span {
+        color: rgb(171, 16, 16);
+    }
+    .about-right button {
+        border: 1px solid white;
+        padding: 20px 40px;
+        border-radius: 30px;
+        background: transparent;
+        color: grey;
+        text-transform: capitalize;
+    }
+    .about-right button:hover {
+        background-color: rgb(171, 16, 16);
+    }
+    .myservice {
+        background-color: black;
+    }
+    body {
+        background-color: black;
+    }
+    .myservice h1 {
+        margin-top: 100px;
+        font-size: 30px;
+        text-align: center;
+        width: 500px;
+    }
+    .myservice1 {
+        padding: 0 20px;
+    }
+    .ser-row {
+        display: block;
+        padding: 20px;
+    }
+    .box-1 {
+        width: 400px;
+        padding: 20px;
+        font-size: 15px;
+        border-left: 1px solid grey;
+    }
+    .box-1 h2 {
+        padding: 10px 0;
+    }
+    .box-1 p {
+        padding: 10px;
+    }
+    .client {
+        padding: 30px;
+        width: 450px;
+    }
+    .client h2 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    .client-box {
+        margin-top: 100px;
+        background-color: rgb(33, 32, 32);
+        height: 40vh;
+        border-bottom: 5px solid rgb(171, 16, 16);
+    }
+    .client-box h2 {
+        text-align: center;
+        font-size: 40px;
+        color: rgb(171, 16, 16);
+    }
+    .client-box p {
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    .ser-row1 {
+        display: block;
+        padding: 30px;
+    }
+    .journal {
+        width: 500px;
+        padding: 20px;
+        position: relative;
+        animation-name: example3;
+        animation-duration: 4s;
+    }
+    .journal h2 {
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+    }
+    .journal1 {
+        padding: 30px;
+    }
+    .j-left {
+        display: block;
+        width: 500px;
+        padding: 10px;
+        margin: 20px;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    .j-right {
+        width: 500px;
+        display: block;
+        padding: 10px;
+        margin: 20px;
+        position: relative;
+        animation-name: example2;
+        animation-duration: 4s;
+    }
+    .skill {
+        width: 500px;
+        padding: 5px;
+        text-align: center;
+    }
+    .skill1 {
+        display: block;
+        padding: 5px;
+    }
+    .skill1 h1 {
+        margin: 20px;
+        text-align: center;
+        color: rgb(171, 16, 16);
+        font-size: 30px;
+    }
+    .skill1 h1 span {
+        color: white;
+        font-size: 20px;
+    }
+    .skill>h1 {
+        text-align: center;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    .j-img {
+        margin-top: 5px;
+        padding: 30px;
+        border: 1px solid grey;
+    }
+    .footer {
+        background-color: rgb(33, 32, 32);
+        text-align: center;
+        width: 500px;
+    }
+    .footer1 {
+        padding: 30px;
+    }
+    .footer h2 {
+        color: white;
+        font-size: 30px;
+    }
+    .f-item {
+        color: rgb(171, 16, 16);
+        padding: 10px;
+    }
+    .f-item .bi:hover {
+        color: white;
+    }
+    .f-item bi {
+        padding: 20px;
+    }
+    .contact {
+        width: 500px;
+        padding: 10px;
+        position: relative;
+        animation-name: example3;
+        animation-duration: 4s;
+    }
+    .contact1 {
+        text-align: center;
+        box-shadow: 0 5px 10px 0px white;
+        border: 1px solid rgb(171, 16, 16);
+        padding: 10px;
+    }
+    .contact1 h2 {
+        color: rgb(171, 16, 16);
+    }
+    form input {
+        width: 200px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    form textarea {
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    form button {
+        width: 200px;
+        background-color: rgb(171, 16, 16);
+        border-radius: 20px;
+        padding: 10px;
+    }
+}
